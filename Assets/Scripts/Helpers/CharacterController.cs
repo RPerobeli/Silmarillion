@@ -16,6 +16,7 @@ namespace Assets.Scripts.Interfaces
         protected Vector3 Position;
         protected bool IsMoving;
         protected Animator Animator;
+        protected SpriteRenderer SpriteRenderer;
         public float ConstCollision = 0.01f;
 
         public LayerMask SolidObjectsLayer;

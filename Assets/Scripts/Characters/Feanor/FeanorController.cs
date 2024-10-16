@@ -13,6 +13,7 @@ public class FeanorController : Assets.Scripts.Interfaces.CharacterController, I
     public void Start()
     {
         Animator = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
