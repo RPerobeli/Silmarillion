@@ -10,9 +10,11 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private GameObject _dialogBox;
     [SerializeField] private Text _dialogText;
     [SerializeField] private Text _dialogTitle;
+
+
     public int LettersPerSecond = 2;
-    private Queue<string> _linesQueue;
-    private Dialog _dialog;
+    private Queue<Dialog> _dialogQueue;
+    private List<Dialog> _dialog;
     private bool _isTyping;
 
     public event Action OnShowDialog;
@@ -21,7 +23,7 @@ public class DialogManager : MonoBehaviour
 
     private void Start()
     {
-        _linesQueue= new Queue<string>();
+        _dialogQueue= new Queue<Dialog>();
         
     }
     public static DialogManager Instance { get; private set; }
@@ -39,29 +41,31 @@ public class DialogManager : MonoBehaviour
         }
     }
 
-    public IEnumerator<WaitForEndOfFrame> ShowDialog(Dialog dialog)
+    public IEnumerator<WaitForEndOfFrame> ShowDialog(string npcName)
     {
         yield return new WaitForEndOfFrame();
+        //Load text
+        _dialog = StoryManager.Instance.LoadDialogue(npcName);
         OnShowDialog?.Invoke();
-        _dialog = dialog;
-        _linesQueue.Clear();
-        foreach(string line in _dialog.Lines)
+        
+        _dialogQueue.Clear();
+        foreach(Dialog line in _dialog)
         {
-            _linesQueue.Enqueue(line);
+            _dialogQueue.Enqueue(line);
         }
         
     }
 
     private void DisplayNextSentence()
     {
-        if(_linesQueue.Count == 0)
+        if(_dialogQueue.Count == 0)
         {
             EndDialog();
             return;
         }
-        string line = _linesQueue.Dequeue();
+        Dialog currentLine = _dialogQueue.Dequeue();
         StopAllCoroutines();
-        StartCoroutine(TypeDialog(line, _dialog.ActorName));
+        StartCoroutine(TypeDialog(currentLine.Text, currentLine.ActorName));
     }
 
     private void EndDialog()
@@ -79,6 +83,10 @@ public class DialogManager : MonoBehaviour
         foreach (var letter in line.ToCharArray()) 
         {
             _dialogText.text += letter;
+            if(Input.GetKeyDown(KeyCode.Z))
+            {
+                _dialogText.text = line.ToString();
+            }
             yield return new WaitForSeconds(1 / LettersPerSecond);
         }
         _isTyping = false;

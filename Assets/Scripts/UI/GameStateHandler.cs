@@ -4,6 +4,9 @@ using UnityEngine;
 public class GameStateHandler : MonoBehaviour
 {
     private EGameState CurrentGameState = EGameState.FreeRoam;
+    private EStoryState _currentStoryState = EStoryState.BeforeMelkor;
+
+    public EStoryState CurrentStoryState => _currentStoryState;
 
     [SerializeField] private FeanorController _player;
 
@@ -43,5 +46,12 @@ public class GameStateHandler : MonoBehaviour
                 }
 
         }
+    }
+
+
+    public static GameStateHandler Instance { get; private set; }
+    private void Awake()
+    {
+        Instance = this;
     }
 }

@@ -8,9 +8,8 @@ using UnityEngine;
 
 public class FingolfinController : Assets.Scripts.Interfaces.CharacterController, IInteractable
 {
-
-    public Dialog _dialog;
     private Transform PlayerTransform;
+    private string _charName = "Fingolfin";
 
     private void Start()
     {
@@ -18,9 +17,8 @@ public class FingolfinController : Assets.Scripts.Interfaces.CharacterController
     }
     public void Interact()
     {
-        _dialog.Lines.Clear();
         LookAtPlayer();
-        StartCoroutine(DialogManager.Instance.ShowDialog(_dialog));
+        StartCoroutine(DialogManager.Instance.ShowDialog(_charName));
     }
 
 

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: BeforeMelkor
+  m_EditorClassIdentifier: Assembly-CSharp:Assets.Scripts.Helpers:MultiDialogueData
+  DialogueSets:
+  - NpcName: Fingolfin
+    Dialogs:
+    - Text: "Feanor! Que bom v\xEA-lo. Estive usando muito sua escrita, qual o nome
+        mesmo?"
+      ActorName: Fingolfin
+    - Text: Tengwar, Fingolfin.
+      ActorName: Feanor
+    - Text: Realmente, espetacular.
+      ActorName: Fingolfin
+  - NpcName: Finarfin
+    Dialogs:
+    - Text: "Voc\xEA j\xE1 reparou na beleza das folhagens de Laurelin?Me lembra
+        os cabelos de minha m\xE3e."
+      ActorName: Finarfin

@@ -11,7 +11,23 @@ namespace Assets.Scripts.Helpers
     public class Dialog
     {
         [TextArea(3,10)]
-        public List<string> Lines;
+        public string Text;
         public string ActorName;
     }
+
+
+    [CreateAssetMenu(fileName = "NewDialogueData", menuName = "Dialogue/Multiple Dialogue Data")]
+    public class MultiDialogueData : ScriptableObject
+    {
+        // Lista de diálogos para diferentes momentos ou personagens
+        public List<DialogueSet> DialogueSets;
+    }
+
+    [System.Serializable]
+    public class DialogueSet
+    {
+        public string NpcName;  // Chave de identificação (ex: nome do personagem ou momento da história)
+        public List<Dialog> Dialogs;  // Lista de falas específicas para este "conjunto"
+    }
+
 }
