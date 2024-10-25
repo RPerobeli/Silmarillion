@@ -16,14 +16,14 @@ MonoBehaviour:
   - NpcName: Fingolfin
     Dialogs:
     - Text: "Feanor! Que bom v\xEA-lo. Estive usando muito sua escrita, qual o nome
-        mesmo?"
-      ActorName: Fingolfin
+        mesmo?\n"
+      ActorName: 'Fingolfin:'
     - Text: Tengwar, Fingolfin.
-      ActorName: Feanor
+      ActorName: 'Feanor:'
     - Text: Realmente, espetacular.
-      ActorName: Fingolfin
+      ActorName: 'Fingolfin:'
   - NpcName: Finarfin
     Dialogs:
     - Text: "Voc\xEA j\xE1 reparou na beleza das folhagens de Laurelin?Me lembra
         os cabelos de minha m\xE3e."
-      ActorName: Finarfin
+      ActorName: 'Finarfin:'

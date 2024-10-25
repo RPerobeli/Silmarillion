@@ -12,7 +12,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private Text _dialogTitle;
 
 
-    public int LettersPerSecond = 2;
+    public float LettersPerSecond = 2f;
     private Queue<Dialog> _dialogQueue;
     private List<Dialog> _dialog;
     private bool _isTyping;
@@ -87,7 +87,7 @@ public class DialogManager : MonoBehaviour
             {
                 _dialogText.text = line.ToString();
             }
-            yield return new WaitForSeconds(1 / LettersPerSecond);
+            yield return new WaitForSeconds(1 / LettersPerSecond * Time.deltaTime);
         }
         _isTyping = false;
     }

@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class FingolfinController : Assets.Scripts.Interfaces.CharacterController, IInteractable
 {
-    private Transform PlayerTransform;
+    
     private string _charName = "Fingolfin";
 
     private void Start()
@@ -23,32 +23,5 @@ public class FingolfinController : Assets.Scripts.Interfaces.CharacterController
 
 
 
-    private void LookAtPlayer()
-    {
-        AtualizarPositionMainChar();
-
-        // Calcula a direção do jogador em relação ao NPC
-        Vector3 direction =  PlayerTransform.position - transform.position;
-
-        // Normaliza a direção para um vetor de unidade (magnitude = 1)
-        direction.Normalize();
-
-        // Verifica se o NPC deve virar para a esquerda ou para a direita
-        Animator.SetFloat(nameof(direction.x), direction.x);
-        Animator.SetFloat(nameof(direction.y), direction.y);
-    }
-
-    private void AtualizarPositionMainChar()
-    {
-        GameObject player = GameObject.FindWithTag("Player");
-
-        if (player != null)
-        {
-            PlayerTransform = player.transform;
-        }
-        else
-        {
-            Debug.LogError("Feanor não encontrado na cena!");
-        }
-    }
+    
 }
