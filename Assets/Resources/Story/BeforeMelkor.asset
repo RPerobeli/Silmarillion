@@ -27,3 +27,11 @@ MonoBehaviour:
     - Text: "Voc\xEA j\xE1 reparou na beleza das folhagens de Laurelin?Me lembra
         os cabelos de minha m\xE3e."
       ActorName: 'Finarfin:'
+  - NpcName: Guarda.1
+    Dialogs:
+    - Text: "Mais um dia sob as b\xEAn\xE7\xE3os dos Valar."
+      ActorName: Guarda Feanoriano
+  - NpcName: Guarda.2
+    Dialogs:
+    - Text: "Tenha um \xF3timo dia, meu senhor."
+      ActorName: Guarda Feanoriano

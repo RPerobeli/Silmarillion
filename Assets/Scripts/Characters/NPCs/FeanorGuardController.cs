@@ -14,6 +14,7 @@ public class NPC1 : Assets.Scripts.Interfaces.CharacterController, IInteractable
     public void Interact()
     {
         LookAtPlayer();
-        StartCoroutine(DialogManager.Instance.ShowDialog(_charName));
+        int valor = Random.Range(minInclusive:1, maxExclusive:3);
+        StartCoroutine(DialogManager.Instance.ShowDialog($"{_charName}.{valor}"));
     }
 }

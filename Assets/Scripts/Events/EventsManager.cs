@@ -17,6 +17,6 @@ public class EventsManager : MonoBehaviour
 
     private void LoadScene(string sceneTag)
     {
-        SceneManager.LoadSceneAsync("sceneTag");
+        SceneManager.LoadSceneAsync(sceneTag);
     }
 }
