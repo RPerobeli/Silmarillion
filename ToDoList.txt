@@ -1,0 +1,20 @@
+A fazer Silmarillion
+
+Global switches;
+Dia de fazer personagem.;
+Programar o Inventário;
+Transições mais suaves com fades
+Desenhar Aqualonde.
+sistema de combate;
+Interação com certos elementos.
+sistema de crafting;
+banco de dados em memoria dos itens;
+
+
+Eventos Canônicos:
+-Intriga de Melkor em Tirion.
+-Briga de Feanor com Fingolfin e Finarfin;
+-Partida da casa de Feanor para Formenos;
+-Criação das Silmarils;
+-Reconciliação dos Noldor;
+-Queda das árvores e roubo das Silmarils;

@@ -9,6 +9,8 @@ public class FeanorController : Assets.Scripts.Interfaces.CharacterController, I
     private LayerMask BattleLayer;
 
 
+    private bool _isInventario;
+
     // Start is called before the first frame update
     public void Start()
     {
@@ -45,6 +47,16 @@ public class FeanorController : Assets.Scripts.Interfaces.CharacterController, I
         Animator.SetBool(nameof(IsMoving), IsMoving);
         #endregion
 
+        #region Inventario
+        if(!_isInventario)
+        {
+            if(Input.GetKeyDown(KeyCode.I))
+            {
+
+            }
+        }
+        #endregion
+
         #region Interact
         if (Input.GetKeyDown(KeyCode.Z))
         {
@@ -64,15 +76,7 @@ public class FeanorController : Assets.Scripts.Interfaces.CharacterController, I
             collider.GetComponent<IInteractable>()?.Interact();
         }
     }
-    private void CheckForEncounters()
-    {
-        if (Physics2D.OverlapCircle(Position, 0.01f, BattleLayer) is not null)
-        {
-            if (Random.Range(1, 100) < 50)
-            {
-                Debug.Log("battle");
-            }
-        }
-    }
+    
+
 
 }
