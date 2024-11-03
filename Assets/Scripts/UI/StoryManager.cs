@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.IO;
 using UnityEngine;
+using System;
 
 public class StoryManager : MonoBehaviour
 {
@@ -26,11 +27,9 @@ public class StoryManager : MonoBehaviour
         LoadStory();
     }
 
-
     public void LoadStory()
     {
         EStoryState storyState = GameStateHandler.Instance.CurrentStoryState;
-
         _currentChapter = _storyChapters[(int)storyState];
         Debug.Log("Capítulo " + storyState.ToString() + " carregado.");
     }

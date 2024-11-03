@@ -24,6 +24,16 @@ public class GameStateHandler : MonoBehaviour
             }
         };
 
+        InventoryManager.Instance.OnShowInventory += () =>
+        {
+            CurrentGameState = EGameState.Inventory;
+        };
+        InventoryManager.Instance.OnHideInventory += () =>
+        {
+            if (CurrentGameState == EGameState.Inventory)
+                CurrentGameState = EGameState.FreeRoam;
+        };
+
     }
     // Update is called once per frame
     void Update()
@@ -42,6 +52,7 @@ public class GameStateHandler : MonoBehaviour
                 }
             case (EGameState.Battle):
                 {
+                    InventoryManager.Instance.HandleUpdate();
                     break;
                 }
 

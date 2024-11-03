@@ -4,7 +4,9 @@
     {
         FreeRoam,
         Battle,
-        Dialog
+        Dialog,
+        Event,
+        Inventory
     }
 
     public enum EStoryState
