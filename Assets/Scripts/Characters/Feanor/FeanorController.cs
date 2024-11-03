@@ -52,7 +52,7 @@ public class FeanorController : Assets.Scripts.Interfaces.CharacterController, I
         {
             if(Input.GetKeyDown(KeyCode.I))
             {
-
+                
             }
         }
         #endregion
