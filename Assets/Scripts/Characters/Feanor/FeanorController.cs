@@ -8,9 +8,6 @@ public class FeanorController : Assets.Scripts.Interfaces.CharacterController, I
     private Vector2 Entrada;
     private LayerMask BattleLayer;
 
-
-    private bool _isInventario;
-
     // Start is called before the first frame update
     public void Start()
     {
@@ -48,12 +45,9 @@ public class FeanorController : Assets.Scripts.Interfaces.CharacterController, I
         #endregion
 
         #region Inventario
-        if(!_isInventario)
+        if(Input.GetKeyDown(KeyCode.I))
         {
-            if(Input.GetKeyDown(KeyCode.I))
-            {
-                
-            }
+            StartCoroutine(InventoryManager.Instance.ShowInventory());
         }
         #endregion
 

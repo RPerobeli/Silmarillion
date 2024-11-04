@@ -12,7 +12,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private Text _dialogTitle;
 
 
-    private float LettersPerSecond;
+    [SerializeField] private float LettersPerSecond;
     private Queue<Dialog> _dialogQueue;
     private List<Dialog> _dialog;
     private bool _isTyping;
@@ -24,7 +24,7 @@ public class DialogManager : MonoBehaviour
     private void Start()
     {
         _dialogQueue= new Queue<Dialog>();
-        LettersPerSecond = 0.05f;
+        LettersPerSecond = 0.1f;
 
     }
     public static DialogManager Instance { get; private set; }

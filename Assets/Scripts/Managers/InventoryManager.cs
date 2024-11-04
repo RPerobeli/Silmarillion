@@ -6,7 +6,7 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance { get; private set; }
-    [SerializeField] private GameObject _inventoryBox;
+    public GameObject InventoryBox;
 
     public event Action OnShowInventory;
     public event Action OnHideInventory;
@@ -19,7 +19,7 @@ public class InventoryManager : MonoBehaviour
 
     public void HandleUpdate()
     {
-        if (Input.GetKeyUp(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.I))
         {
             OnHideInventory?.Invoke();   
         }
@@ -31,8 +31,6 @@ public class InventoryManager : MonoBehaviour
         yield return new WaitForEndOfFrame();       
         OnShowInventory?.Invoke();
     }
-    
-
 
 
 }
