@@ -27,14 +27,17 @@ public class GameStateHandler : MonoBehaviour
         InventoryManager.Instance.OnShowInventory += () =>
         {
             CurrentGameState = EGameState.Inventory;
-            InventoryManager.Instance.InventoryBox.gameObject.SetActive(true);
+            if (!InventoryManager.Instance.InventoryBox.activeSelf)
+            {
+                InventoryManager.Instance.InventoryBox.SetActive(true);
+            }
 
         };
         InventoryManager.Instance.OnHideInventory += () =>
         {
             if (CurrentGameState == EGameState.Inventory)
                 CurrentGameState = EGameState.FreeRoam;
-            InventoryManager.Instance.InventoryBox.gameObject.SetActive(false);
+            
         };
 
 

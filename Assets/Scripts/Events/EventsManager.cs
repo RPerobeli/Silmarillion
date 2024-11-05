@@ -11,7 +11,9 @@ public class EventsManager : MonoBehaviour
     {
         if (GoTirionBoundaries is not null)
         {
+            //GoTirionBoundaries.OnTriggerLoadScene += () => LoadScene("ArredoresTirionLeste");
             GoTirionBoundaries.OnTriggerLoadScene += () => LoadScene("ArredoresTirionLeste");
+
         }
     }
 

@@ -7,6 +7,7 @@ public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance { get; private set; }
     public GameObject InventoryBox;
+    private Animator Animator;
 
     public event Action OnShowInventory;
     public event Action OnHideInventory;
@@ -16,20 +17,31 @@ public class InventoryManager : MonoBehaviour
         if (Instance == null)
             Instance = this;
     }
+    private void Start()
+    {
+        Animator = InventoryBox.GetComponent<Animator>();
+    }
 
     public void HandleUpdate()
     {
         if (Input.GetKeyDown(KeyCode.I))
         {
-            OnHideInventory?.Invoke();   
+            StartCoroutine(HideInventory());
         }
     }
 
+    public IEnumerator<WaitForEndOfFrame> HideInventory()
+    {
+        yield return new WaitForEndOfFrame();
+        OnHideInventory?.Invoke();
+        Animator.SetBool("InventoryState", false);
+    }
 
     public IEnumerator<WaitForEndOfFrame> ShowInventory()
     {
         yield return new WaitForEndOfFrame();       
         OnShowInventory?.Invoke();
+        Animator.SetBool("InventoryState", true);
     }
 
 
