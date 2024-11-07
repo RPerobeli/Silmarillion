@@ -9,7 +9,8 @@ public class MainMenuBtns : MonoBehaviour
     public void PlayGame()
     {
         Debug.Log("Playing App.");
-        SceneManager.LoadSceneAsync("Tirion");
+        StartCoroutine(SceneTransition.Instance.LoadScene("Tirion"));
+        
     }
     public void QuitGame()
     {

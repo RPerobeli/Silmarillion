@@ -8,6 +8,18 @@ public class GameStateHandler : MonoBehaviour
 
     public EStoryState CurrentStoryState => _currentStoryState;
 
+    public static GameStateHandler Instance { get; private set; }
+    private void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
+
+        DontDestroyOnLoad(gameObject); // Persistência entre cenas
+    }
+
+
     [SerializeField] private FeanorController _player;
 
     private void Start()
@@ -68,9 +80,4 @@ public class GameStateHandler : MonoBehaviour
     }
 
 
-    public static GameStateHandler Instance { get; private set; }
-    private void Awake()
-    {
-        Instance = this;
-    }
 }
