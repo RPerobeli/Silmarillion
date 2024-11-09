@@ -39,9 +39,18 @@ public class InventoryManager : MonoBehaviour
 
     public IEnumerator<WaitForEndOfFrame> ShowInventory()
     {
-        yield return new WaitForEndOfFrame();       
+        yield return new WaitForEndOfFrame();
+        ListItems();
         OnShowInventory?.Invoke();
         Animator.SetBool("InventoryState", true);
+    }
+
+    public void ListItems()
+    {
+        foreach(InventoryItem item in FeanorController.Instance.Inventory)
+        {
+            
+        }
     }
 
 

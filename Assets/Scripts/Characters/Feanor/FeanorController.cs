@@ -5,13 +5,26 @@ using UnityEngine;
 
 public class FeanorController : Assets.Scripts.Interfaces.CharacterController, IInteractable
 {
+    public static FeanorController Instance;
+    public void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
+
+        DontDestroyOnLoad(gameObject); // Persistência entre cenas
+    }
+
     private Vector2 Entrada;
     private LayerMask BattleLayer;
 
+    public List<InventoryItem> Inventory;
     // Start is called before the first frame update
     public void Start()
     {
         Animator = GetComponent<Animator>();
+        Inventory = new List<InventoryItem>();
         
     }
 
@@ -69,6 +82,11 @@ public class FeanorController : Assets.Scripts.Interfaces.CharacterController, I
         {
             collider.GetComponent<IInteractable>()?.Interact();
         }
+    }
+
+    public void AddToInventory(InventoryItem item)
+    {
+        this. Inventory.Add(item);
     }
     
 
