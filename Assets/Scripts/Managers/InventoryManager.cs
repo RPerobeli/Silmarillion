@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class InventoryManager : MonoBehaviour
 
     public event Action OnShowInventory;
     public event Action OnHideInventory;
+
+    public Transform ItemContent;
+    public GameObject InventoryItem;
 
     private void Awake()
     {
@@ -47,9 +51,19 @@ public class InventoryManager : MonoBehaviour
 
     public void ListItems()
     {
+        //Clear Inventory
+        foreach(Transform item in ItemContent)
+        {
+            Destroy(item.gameObject);
+        }
         foreach(InventoryItem item in FeanorController.Instance.Inventory)
         {
-            
+            GameObject obj = Instantiate(InventoryItem, ItemContent);
+            var itemName = obj.transform.Find("ItemName").GetComponent<Text>();
+            var itemIcon = obj.transform.Find("ItemIcon").GetComponent<Image>();
+
+            itemName.text = item.Name;
+            itemIcon.sprite = item.Icon;
         }
     }
 
