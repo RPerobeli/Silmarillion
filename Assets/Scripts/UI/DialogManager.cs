@@ -55,6 +55,7 @@ public class DialogManager : MonoBehaviour
             _dialogQueue.Enqueue(line);
         }
         
+        
     }
 
     private void DisplayNextSentence()
