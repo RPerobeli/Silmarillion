@@ -21,4 +21,12 @@
     {
 
     }
+
+    public enum ECraftingItems
+    {
+        Silmaril,
+        OliveOil,
+        IronHammer,
+        FireRing
+    }
 }

@@ -1,3 +1,4 @@
+using Assets.Scripts.Model;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -61,9 +62,11 @@ public class InventoryManager : MonoBehaviour
             GameObject obj = Instantiate(InventoryItem, ItemContent);
             var itemName = obj.transform.Find("ItemName").GetComponent<Text>();
             var itemIcon = obj.transform.Find("ItemIcon").GetComponent<Image>();
+            var itemQuantity = obj.transform.Find("QuantityPanel").Find("ItemQuantity").GetComponent<Text>();
 
-            itemName.text = item.Name;
-            itemIcon.sprite = item.Icon;
+            itemName.text = item.Item.Name;
+            itemIcon.sprite = item.Item.Icon;
+            itemQuantity.text = item.Quantity.ToString();
         }
     }
 

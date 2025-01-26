@@ -1,15 +1,14 @@
-
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
-using UnityEngine;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-[CreateAssetMenu(fileName ="New Item", menuName = "Item/Create New Item")]
-public class InventoryItem : ScriptableObject
+namespace Assets.Scripts.Model
 {
-    public int Id;
-    public string Name;
-    public Sprite Icon;
-    public bool Craftable;
-    public List<int> Ingredients;
-
+    public class InventoryItem
+    {
+        public Item Item { get; set; }
+        public int Quantity { get; set; }
+    }
 }

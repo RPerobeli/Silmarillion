@@ -16,7 +16,7 @@ namespace Assets.Scripts.Interfaces
         protected Vector3 Position;
         protected bool IsMoving;
         protected Animator Animator;
-        protected SpriteRenderer SpriteRenderer;
+        public SpriteRenderer SpriteRenderer;
         public float ConstCollision = 0.5f;
 
         public LayerMask SolidObjectsLayer;
@@ -64,6 +64,7 @@ namespace Assets.Scripts.Interfaces
             IsMoving = true;
             while ((targetPos - Position).sqrMagnitude > Mathf.Epsilon)
             {
+                SpriteRenderer.sortingOrder = Mathf.RoundToInt(-transform.position.y * 1);
                 transform.position = Vector3.MoveTowards(Position, targetPos, MoveSpeed * Time.deltaTime);
                 yield return null;
             }

@@ -1,4 +1,6 @@
+using Assets.Scripts.Helpers;
 using Assets.Scripts.Interfaces;
+using Assets.Scripts.Model;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,6 +18,16 @@ public class FeanorController : Assets.Scripts.Interfaces.CharacterController, I
         DontDestroyOnLoad(gameObject); // Persistência entre cenas
     }
 
+    //gameplay variables
+    private float _gold = 0f;
+    private int _craftingLevel = 1;
+    private int _experience = 0;
+
+    private List<ECraftingItems> _unlockedCraf = new();
+
+
+
+    
     private Vector2 Entrada;
     private LayerMask BattleLayer;
 
