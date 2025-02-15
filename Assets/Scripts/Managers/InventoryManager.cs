@@ -33,6 +33,7 @@ public class InventoryManager : MonoBehaviour
         {
             StartCoroutine(HideInventory());
         }
+        
     }
 
     public IEnumerator<WaitForEndOfFrame> HideInventory()
@@ -60,6 +61,9 @@ public class InventoryManager : MonoBehaviour
         foreach(InventoryItem item in FeanorController.Instance.Inventory)
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
+            var controller = obj.GetComponent<InventoryItemController>();
+            controller.SetItem(item.Item);
+
             var itemName = obj.transform.Find("ItemName").GetComponent<Text>();
             var itemIcon = obj.transform.Find("ItemIcon").GetComponent<Image>();
             var itemQuantity = obj.transform.Find("QuantityPanel").Find("ItemQuantity").GetComponent<Text>();

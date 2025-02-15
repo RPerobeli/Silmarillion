@@ -123,14 +123,14 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: ElvenFurnace
     originalName: 
-    pivot: {x: 0.4986945, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 788
-      y: 1498
-      width: 383
+      x: 4
+      y: 4
+      width: 384
       height: 490
     spriteID: 71f24673da4385f48bb359479fa62054
     spriteBone: []
@@ -140,7 +140,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 788, y: 1498}
+    uvTransform: {x: 4, y: 4}
   - name: ElvenFurnace_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -149,7 +149,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
+      y: 502
       width: 384
       height: 490
     spriteID: f4c6d86d2963d4845bb1dd04ee65427c
@@ -160,7 +160,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 4, y: 502}
   - name: ElvenFurnace_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -169,7 +169,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 502
+      y: 1000
       width: 384
       height: 490
     spriteID: 6d22190220530094bb18438907859935
@@ -180,7 +180,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 502}
+    uvTransform: {x: 4, y: 1000}
   - name: ElvenFurnace_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -189,7 +189,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1000
+      y: 1498
       width: 384
       height: 490
     spriteID: 64343841aa538074198e91fcbef11866
@@ -200,7 +200,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1000}
+    uvTransform: {x: 4, y: 1498}
   - name: ElvenFurnace_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -208,8 +208,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1498
+      x: 396
+      y: 4
       width: 384
       height: 490
     spriteID: 18d28ef1612f4f048bd7c93e1d81e8e2
@@ -220,7 +220,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1498}
+    uvTransform: {x: 396, y: 4}
   - name: ElvenFurnace_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -229,7 +229,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 396
-      y: 4
+      y: 502
       width: 384
       height: 490
     spriteID: 967c3f52eb2098c49a4f2733876f46e9
@@ -240,7 +240,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 396, y: 4}
+    uvTransform: {x: 396, y: 502}
   - name: ElvenFurnace_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -249,7 +249,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 396
-      y: 502
+      y: 1000
       width: 384
       height: 490
     spriteID: 8d49a62048eb82d48ab4491669ea652f
@@ -260,28 +260,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 396, y: 502}
-  - name: ElvenFurnace_Frame_7
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 396
-      y: 1000
-      width: 384
-      height: 490
-    spriteID: e7d3cddffcc47af46ae0ac2a480fa501
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
     uvTransform: {x: 396, y: 1000}
-  - name: ElvenFurnace_Frame_8
+  - name: ElvenFurnace_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -292,7 +272,7 @@ ScriptedImporter:
       y: 1498
       width: 384
       height: 490
-    spriteID: 223e7ef7048109443b0c52a057f9aaab
+    spriteID: e7d3cddffcc47af46ae0ac2a480fa501
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -301,7 +281,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 396, y: 1498}
-  - name: ElvenFurnace_Frame_9
+  - name: ElvenFurnace_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -312,7 +292,7 @@ ScriptedImporter:
       y: 4
       width: 384
       height: 490
-    spriteID: fc9a3e95370aa9343abf696afb12136c
+    spriteID: 223e7ef7048109443b0c52a057f9aaab
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -321,7 +301,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 788, y: 4}
-  - name: ElvenFurnace_Frame_10
+  - name: ElvenFurnace_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -332,7 +312,7 @@ ScriptedImporter:
       y: 502
       width: 384
       height: 490
-    spriteID: b35aa2682d85f57419ae1874fb12639d
+    spriteID: fc9a3e95370aa9343abf696afb12136c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -341,7 +321,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 788, y: 502}
-  - name: ElvenFurnace_Frame_11
+  - name: ElvenFurnace_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -352,7 +332,7 @@ ScriptedImporter:
       y: 1000
       width: 384
       height: 490
-    spriteID: cabcafb18e090a045ae9a591b29f7d21
+    spriteID: b35aa2682d85f57419ae1874fb12639d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -361,6 +341,26 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 788, y: 1000}
+  - name: ElvenFurnace_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 788
+      y: 1498
+      width: 384
+      height: 490
+    spriteID: cabcafb18e090a045ae9a591b29f7d21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 788, y: 1498}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -373,9 +373,9 @@ ScriptedImporter:
     - name: ElvenFurnace_Frame_0
       frameIndex: 0
       cellRect:
-        x: 1
+        x: 0
         y: 0
-        width: 383
+        width: 384
         height: 490
       spriteId: 71f24673da4385f48bb359479fa62054
     - name: ElvenFurnace_Frame_1
