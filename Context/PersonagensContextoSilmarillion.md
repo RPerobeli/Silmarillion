@@ -1,19 +1,7 @@
-Mundo: 
- - Arda: Mundo da terra média, onde se conta a história do silmarillion.
- - Valinor: É o continente oeste de Arda, onde ficam todas as coisas belas que não foram corrompidas por melkor. Valinor é povoada apenas por eldar, ou altos elfos,
- que são nobres em essencia. O continente possui uma grande cordilheira, o Taniquetil e de lá os Ainur, raça de anjos que criaram o mundo governam como deuses dos elfos.
  - Clãs dos Elfos:
   - Vanyar: Elfos mais ligados à natureza, menos numerosos em Valinor, dotados de cabelos loiros e longos, muito nobres e virtuosos. 
   - Noldor: Elfos com grandes virtudes manufatureiras. Abençoados por Aule, manufaturam jóias, ferramentas e após melkor, manufaturam armas. São os mais numerosos
   - Teleri: Amantes do mar, vieram para Valinor após seu líder, Thingol, continuar na terra de beleriand. Vieram em poucos numeros e se fixaram na costa leste de Valinor.
- - Cidades:
-  - Tirion: Cidade capital dos elfos Noldor. Majestosa e bela, com casas e monumentos brancos (em mármore - ou algo assim). Governada por Finwe.
-  - Aqualonde: Cidade portuária dos Teleri, Onde se encontram os numerosos barcos a vela de pesca dos Teleri.
-  - Mina de Tiron: Local com diversos minérios úteis para o desenvolvimento do jogo. Terá alguns níveis, com o nível inferior contendo minérios mais raros. Os níveis 
-  inferiores serão desbloqueados com ferramentas criadas por Feanor.
-
-
-Vilão final: Melkor
 
 Eventos:
  - Feanor demonstra aptidão para manufaturas.
@@ -28,10 +16,40 @@ Eventos:
 
  Personagens:
   - Sogro do Feanor, Mahtan:
-      - Caracteristicas:
-      - Objetivo: 
+      Mahtan é um elfo Ñoldor de Valinor em "O Silmarillion", famoso por ser um grande ferreiro e por ser o pai de Nerdanel (esposa de Fëanor). Ele é conhecido por sua habilidade excepcional na forja, por ter ensinado Fëanor e por ser uma das raras exceções entre os elfos por ter barba em tenra idade.
+
+      Identidade e Habilidades:
+      Mestre Ferreiro: Mahtan aprendeu as artes de trabalhar metais e pedras com o Vala Aulë, sendo por isso chamado de Aulendur ("Servo de Aulë").
+
+      Aparência e Nomes: Ele tinha cabelos castanho-avermelhados e usava um diadema de cobre, sendo conhecido por seu amor por esse metal, o que lhe rendeu o epíteto Urundil ("Amante do Cobre"). Outro epíteto seu era Rusco ("Raposa"), devido à cor de seu cabelo.
+
+  - Nerdanel, esposa de Feanor:
+      Nerdanel, chamada "a Sábia", é uma elfa Noldor de Valinor, filha do ferreiro Mahtan e esposa de Fëanor. Destaca-se por sua habilidade como escultora, por seu temperamento equilibrado que por um tempo conteve o marido, e por sua decisão de não segui-lo na rebelião contra os Valar—uma escolha que a salvou, mas que a separou para sempre de seu esposo e dos sete filhos.
+      Arte e Personalidade:
+      Escultora exímia: Nerdanel criava estátuas tão realistas que as pessoas tentavam falar com elas, acreditando serem seres vivos . Também produzia obras de sua própria imaginação, descritas como "fortes e estranhas, mas belas" .
+
+      A "Sábia": Seu epíteto reflete sua força de vontade e sede por conhecimento. Diferente de Fëanor, buscava compreender os outros em vez de dominá-los, sendo mais paciente que o marido .
+
+      Aparência: Não era considerada "a mais bela de seu povo" . Tinha cabelo castanho e tez avermelhada; a linhagem de seu pai era notável por cabelos ruivo-acobreados, traço herdado por três de seus filhos (Maedhros, Amrod e Amras) .
+
+  - Galadriel:
+    Antes de os Noldor retornarem à Terra-média, Galadriel viveu em Valinor durante a Era das Árvores. Sua relação com Fëanor foi marcada por uma profunda animosidade: embora Fëanor a admirasse imensamente, Galadriel sempre sentiu nele uma escuridão que odiava e temia, e recusou-se repetidamente a ceder aos seus pedidos, tornando-se sua "inimiga para sempre" .
+
+    Vida em Valinor e Linhagem:
+    Galadriel era filha de Finarfin e Eärwen, pertencendo à linhagem real dos Noldor e parente dos Teleri . Destacava-se por sua beleza e estatura notável, sendo seu cabelo descrito como uma maravilha sem igual, contendo a lembrança da luz das Duas Árvores . Possuía o dom de perscrutar as mentes alheias, mas julgava com compaixão e compreensão .
+
+    A Relação Conturbada com Fëanor:
+    A hostilidade entre eles tem raízes profundas e um episódio central:
+    A Recusa dos Cachos: Fëanor, fascinado pelo cabelo de Galadriel, pediu-lhe três vezes um cacho, e ela recusou todas as vezes, sem lhe dar sequer um fio . Muitos acreditam que essa admiração frustrada pode ter inspirado Fëanor na criação das Silmarils .
+    A Percepção da Escuridão: Galadriel via em Fëanor uma escuridão que odiava e temia, sendo a única pessoa a quem ela negava sua boa vontade . Essa desconfiança mútua os tornou "inimigos para sempre" .
+
+  - Melkor:
+    Após a Guerra pela Salvação dos Elfos (guerra dos Valar contra Melkor), Melkor foi capturado e acorrentado por três eras. Após ser libertado, ele inicialmente fingiu arrependimento e circulou entre os Valar e os eldar, ganhando a confiança de Manwë. No entanto, ele logo voltou a conspirar, usando a inveja que sentia pelas Silmarils de Fëanor e pelo prestígio de Fëanor, e começou a espalhar rumores em Valinor, exacerbando deliberadamente as contradições entre os dois meio-irmãos Fëanor e Fingolfin, tentando assim destruir Fëanor e os Noldor por meio de conflitos internos.
+    Vale ressaltar que, nesse período, Melkor ainda não havia matado Finwë nem roubado as Silmarils, e seu contato direto com os elfos era principalmente por meios ocultos de instigação e corrupção. Somente após a criação das Silmarils ele finalmente destruiu as Duas Árvores, matou Finwë e roubou as joias, sendo então renomeado por Fëanor como "Morgoth".
 
 
+
+Fëanor:
 Fëanor nasceu durante os Anos das Árvores em Valinor, filho de Finwë e Míriel.
 Ele extraiu tanto da energia vital de Míriel quando nasceu que ela se cansou de viver e seu espírito voluntariamente deixou seu corpo, deixando sua família para os Salões de Mandos.
 Depois de um tempo, Finwë se casou novamente e teve mais quatro filhos; os meio-irmãos de Fëanor, Fingolfin e Finarfin , e as meias-irmãs Findis e Irimë . 
