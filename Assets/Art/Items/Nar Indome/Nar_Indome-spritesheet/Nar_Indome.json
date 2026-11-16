@@ -1,0 +1,38 @@
+{
+  "object": {
+    "id": "8923acb3-d9a6-4f96-a7a6-f7a46cbf9e00",
+    "name": "base",
+    "prompt": "an elven crafting hammer, to use in smithing and jewelrycraft",
+    "size": {
+      "width": 256,
+      "height": 256
+    },
+    "directions": 1,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "Nar_Indome.png",
+    "cell_size": {
+      "width": 256,
+      "height": 256
+    },
+    "sheet_size": {
+      "width": 256,
+      "height": 256
+    },
+    "columns": 1,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 1,
+        "directions": [
+          "unknown"
+        ]
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-11-16T16:46:18.840983+00:00"
+}
