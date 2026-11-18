@@ -47,6 +47,45 @@ Eventos:
     Após a Guerra pela Salvação dos Elfos (guerra dos Valar contra Melkor), Melkor foi capturado e acorrentado por três eras. Após ser libertado, ele inicialmente fingiu arrependimento e circulou entre os Valar e os eldar, ganhando a confiança de Manwë. No entanto, ele logo voltou a conspirar, usando a inveja que sentia pelas Silmarils de Fëanor e pelo prestígio de Fëanor, e começou a espalhar rumores em Valinor, exacerbando deliberadamente as contradições entre os dois meio-irmãos Fëanor e Fingolfin, tentando assim destruir Fëanor e os Noldor por meio de conflitos internos.
     Vale ressaltar que, nesse período, Melkor ainda não havia matado Finwë nem roubado as Silmarils, e seu contato direto com os elfos era principalmente por meios ocultos de instigação e corrupção. Somente após a criação das Silmarils ele finalmente destruiu as Duas Árvores, matou Finwë e roubou as joias, sendo então renomeado por Fëanor como "Morgoth".
 
+  - Manwë: 
+  Rei de Arda, Senhor do Vento e do Céu. Ele é o mais próximo dos pensamentos de Ilúvatar e governa Arda como representante de Eru. Ele criou as Grandes Águias.
+
+  - Varda: 
+  Rainha dos Valar, Senhora da Luz e das Estrelas (Elbereth). Os Elfos a estimam especialmente; ela criou as estrelas e rejeitou Melkor antes do início do tempo, sendo a única que Melkor temia.
+
+  - Ulmo: 
+  Senhor das Águas, segundo em poder depois de Manwë. Ele vive sozinho no mar e raramente vai a Valinor, mas ama profundamente Elfos e Humanos, frequentemente transmitindo mensagens através das águas. Ele é o único Valar que continuou a se importar diretamente com a Terra-média durante a Primeira Era.
+
+  - Aulë: 
+  Senhor da Terra, dos Metais e da Forja. Ele é o artesão dos Valar, criador das lâmpadas, das cadeias de Melkor e dos vasos do Sol e da Lua. Ele criou os Anões (chamado de Mahal), mas por isso foi repreendido por Eru, pois os Anões não estavam no tema original.
+
+  - Yavanna: 
+  Senhora das Plantas e Frutos (mãe da terra). Esposa de Aulë, ela criou as Duas Árvores de Valinor. Preocupada com a destruição das florestas, ela pediu a Eru que criasse os Ents (pastores das árvores) para proteger as árvores.
+
+  - Mandos (Námo):
+   Juiz dos Mortos, guardião das almas dos Elfos. Ele é sério e imparcial, conhece o futuro e profere o destino (incluindo a maldição sobre os Noldor) sob o comando de Manwë.
+
+  - Vairë: 
+  Tecelã do Tempo. Esposa de Mandos, ela tece tapeçarias registrando toda a história do mundo nas salas de Mandos.
+
+  - Irmo (Lórien):
+   Senhor dos Sonhos e Visões. Ele cuida dos sonhos e do descanso, habitando os jardins de Lórien.
+
+  - Estë: 
+  Senhora da Cura e do Descanso. Esposa de Irmo, ela veste roupas cinzentas e proporciona cura e recuperação aos feridos e cansados.
+
+  - Tulkas: 
+  O mais forte e melhor lutador entre os Valar. Ele foi o último a entrar em Arda, e sua risada e fúria fazem Melkor fugir. Ele é o principal combatente dos Valar contra Melkor.
+
+  - Nessa: 
+  A veloz. Esposa de Tulkas, irmã de Oromë, ela adora dançar e correr pelas planícies com cervos.
+
+  - Oromë: 
+  Senhor da Caça e das Bestas. Ele odeia as criaturas malignas de Melkor e é o Valar que descobriu os Elfos na Terra-média (em Cuiviénen). Ele monta o cavalo Nahar e usa a trombeta Valaróma.
+
+  - Vána: 
+  A eternamente jovem. Esposa de Oromë, irmã de Yavanna, ela é a senhora das flores e dos pássaros.
+
 
 
 Fëanor:

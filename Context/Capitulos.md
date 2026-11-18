@@ -2,15 +2,21 @@ Capitulo 1 - Feanor Estuda com Mahtan (Tirion)
 Objetivo: iniciar o player nas receitas básicas (óleo, ferramentas , cobre )
 Jogo começa com Feanor em Sua casa, em Tirion, com Mahtan ensinando sobre a Forja.
 Feanor deve acender a forja lvl1, precisa de lenha e óleo.
-Mahtan empresta as ferramentas básicas para Feanor (Martelo simples, picareta, Faca simples)
+Mahtan empresta as ferramentas básicas para Feanor (Martelo simples, picareta, Faca simples, cinzel, machado simples)
 Feanor deve ir em algum cultivo de Tirion e coletar as olivas.
 Feanor, com a forja acesa realiza sua primeira fundicao - uma barra de cobre. Precisa ir na mina de Tirion recuperar o minério.
 Finarfin, por ser Vanyar tem um passo para música, ensina Feanor a mexer com madeira, cria com feanor uma arpa enquanto feanor cria uma flauta.
-Também ensina Feanor a criar uma corda e também um arco para caça (ensinamentos de Orome)
+Também ensina Feanor a criar uma corda e também um arco para caça (ensinamentos de Finwe)
 
 
+
+Missao final do capitulo: Feanor aprende a forjar ferro, recebe a informação de minérios raros ao Norte (formenos)
 Capitulo 2 - Feanor Faz sua jornada ao Norte (Futura Formenos - Local de metais mais raros)
 Objetivo: estudar ligas metálicas mais avançadas e aprender minerais para joalheria básica -> cria o seu martelo
+Feanor aprende a sabedoria dos servos de Aule: como imbuir "magia" nas suas criações
+Missao final: 
+Feanor forja o Nar Indome (martelo classico dele)
+
 Capitulo 3 - Feanor Viaja ao Sul (Avathar)
 Objetivo: metais escuros (obsidiana - Palantir) e pedras mais raras. Terra negra, Feanor aprende o valor da luz das árvores.
 Capitulo 4 - Feanor Volta a tírion e fica fixado em entender a luz das árvores.
