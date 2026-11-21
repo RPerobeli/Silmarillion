@@ -41,6 +41,7 @@ Feanor lapida as safiras, esmeraldas e rubis para adicionar ao martelo.
 Com a ajuda de Curunáro, Feanor cria o Nar Índome.
 O martelo Nar Índome é a primeira criação de Feanor com magia, que chega aos pés das criações do povo de Telpenor.
 
+Feanor nota a jóia preta, belíssima na picareta de Curunáro,  
 Curunáro ensina Feanor a fazer Flechas mais afiadas e resistentes e uma Faca diferenciada também, pois diz para Feanor ir nas terras escuras  de Avathar.
 Lá tem pedras e metais mais avançados e de dificil manuseabilidade, porém, lá há criaturas fortes e mais agressivas.
 

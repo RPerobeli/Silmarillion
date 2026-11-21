@@ -15,6 +15,12 @@ Eventos:
  - Feanor cria as silmarils.
 
  Personagens:
+  - Maltaron: 
+      Líder da vila de mineiros e ferreiros de Telpenor, Maltaron ajuda a liderar buscas por ouro nas montanhas menores perto do Taniquetil, nas cadeias das Pelóri.
+      É um líder forte, e com tom comerciante, afinal, a vila é exportadora de minerios e lingotes. Maltaron prefere que os coonhecimentos de Aule sejam mantidos na vila.
+      Ali, desde os primórdios, ficaram os Noldor mais devotos de Aule, e por isso MAltaron prefere que os conhecimentos continuem com seus ferreiros, snedo ele mesmo um grande seguidor de Aule.
+  - Curunáro:
+      Elfo mais antigo da vila, 
   - Sogro do Feanor, Mahtan:
       Mahtan é um elfo Ñoldor de Valinor em "O Silmarillion", famoso por ser um grande ferreiro e por ser o pai de Nerdanel (esposa de Fëanor). Ele é conhecido por sua habilidade excepcional na forja, por ter ensinado Fëanor e por ser uma das raras exceções entre os elfos por ter barba em tenra idade.
 
