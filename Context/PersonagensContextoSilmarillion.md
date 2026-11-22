@@ -20,7 +20,8 @@ Eventos:
       É um líder forte, e com tom comerciante, afinal, a vila é exportadora de minerios e lingotes. Maltaron prefere que os coonhecimentos de Aule sejam mantidos na vila.
       Ali, desde os primórdios, ficaram os Noldor mais devotos de Aule, e por isso MAltaron prefere que os conhecimentos continuem com seus ferreiros, snedo ele mesmo um grande seguidor de Aule.
   - Curunáro:
-      Elfo mais antigo da vila, 
+      Elfo mais antigo da vila, possui um semblante sereno por ser um dos Elfos que veio na marcha desde o Cuiviennen. Desde que chegou na planície de Túna, Curunáro foi um dos primeiros a se encantar com as obras de Aule. Participou da construção da cidade de Tirion, mas com o tempo, buscava ainda mais a perfeição de suas criações. Mudou-se para a vila de Telpenor com outros seguidores de Aule e receberam conhecimento dos Maiar subordinados a Aule. O próprio Aule passou conhecimento para Curunáro.
+      Possui uma certa clarividência e ao conhecer Feanor, Curunáro vê a luz de Valinor nas mãos de Feanor e decide ensdiná-lo nas artes de Aule. 
   - Sogro do Feanor, Mahtan:
       Mahtan é um elfo Ñoldor de Valinor em "O Silmarillion", famoso por ser um grande ferreiro e por ser o pai de Nerdanel (esposa de Fëanor). Ele é conhecido por sua habilidade excepcional na forja, por ter ensinado Fëanor e por ser uma das raras exceções entre os elfos por ter barba em tenra idade.
 
