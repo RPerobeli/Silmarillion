@@ -46,12 +46,19 @@ Curunáro ensina Feanor a fazer Flechas mais afiadas e resistentes e uma Faca di
 Lá tem pedras e metais mais avançados e de dificil manuseabilidade, porém, lá há criaturas fortes e mais agressivas.
 
 Capitulo 3 - Feanor Viaja ao Sul (Avathar)
-Objetivo: metais escuros (obsidiana - Palantir) e pedras mais raras. Terra negra, Feanor aprende o valor da luz das árvores.
+Objetivo: metais escuros (obsidiana - Palantir) e pedras mais raras (ônix, ferro negro, ouro). Terra negra, Feanor aprende o valor da luz das árvores.
 
 Antes de ir para o Sul, Feanor pode passar em Tirion. Lá conversa com Fingolfin, Finarfin e Finwe. 
 Feanor percebe que Fingolfin continua sendo muito adorado pelos Noldor mas seu pai ainda o tem como preferido.
-Melkor está incitando a discordia entre Fingolfin e Feanor entre o povo. No mapa é possível vê-lo conversando com Noldor aleatórios pelo mapa (não é possível ouvir a conversa)
+Melkor está incitando a discordia entre Fingolfin e Feanor entre o povo. No mapa é possível vê-lo conversando com Noldor aleatórios pelo mapa (Ao tentar ouvir a conversa, melkor desconversa)
 Feanor começa a receber tarefas do povo do mural de Mahtan. É o começo de como ele vai ficar conhecido como grande artesão entre os Noldor.
+
+Feanor parte para Avathar. O local não possui a luz das árvores de Valinor, portanto Feanor é obrigado a usar/fabricar tochas simples para andar pelo local.
+Feanor deve enfrentar criaturas escuras como aranhas gigantes e morcegos  até adquirir novos minérios. Ele é capaz de encontrar as fontes de pedra obsidiana.
+Feanor também encontra fontes de ônix, ferro negro (ferro negro é usado nas armaduras de morgoth e sauron) e ouro com maior quantidade.
+Feanor ao passar por Avathar percebe a falta que a luz de Valinor faz e o quanto ela é importante.
+Feanor tem que descobrir que ônix, ao ser aquecida na forja, ou fundida com a tocha simples, gera um brilho pálido branco azulado (será usada para criar a feanorian lamp)
+Ao sair de Avathar, Feanor escuta o rugido de Ungoliant.
 
 Capitulo 4 - Feanor Volta a tírion e fica fixado em entender a luz das árvores.
 Objetivo: Cria as Feanorian Lamps e é a primeira vez que solicita os cabelos de Galadriel
