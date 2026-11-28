@@ -156,7 +156,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 532
+      x: 268
       y: 4
       width: 255
       height: 171
@@ -168,18 +168,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 532, y: -47}
+    uvTransform: {x: 268, y: -47}
   - name: Frame_2
     originalName: 
-    pivot: {x: 0.5, y: -0.2982456}
+    pivot: {x: 0.5019608, y: -0.2982456}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 268
+      x: 531
       y: 4
-      width: 256
+      width: 255
       height: 171
     spriteID: 19e0b83394c72434687dab7ed3d99ef4
     spriteBone: []
@@ -189,7 +189,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 268, y: -47}
+    uvTransform: {x: 531, y: -47}
   - name: Frame_3
     originalName: 
     pivot: {x: 0.5019608, y: -0.2982456}
@@ -295,48 +295,6 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 267, y: 314}
-  - name: Frame_8
-    originalName: 
-    pivot: {x: 0.5019608, y: -0.2982456}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 530
-      y: 365
-      width: 255
-      height: 171
-    spriteID: 9a5e8ba14afa40449a95d1b6c951cc2a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 530, y: 314}
-  - name: Frame_9
-    originalName: 
-    pivot: {x: 0.5019608, y: -0.2982456}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 544
-      width: 255
-      height: 171
-    spriteID: 9fbcb9ccd5c4bbb4f8b10e0937499510
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 493}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
@@ -424,24 +382,6 @@ ScriptedImporter:
         width: 256
         height: 256
       spriteId: 5852e9b1e10fe3c4a823ac1be2221d63
-    - name: Frame_8
-      frameIndex: 8
-      additiveSortOrder: 0
-      cellRect:
-        x: 0
-        y: 0
-        width: 256
-        height: 256
-      spriteId: 9a5e8ba14afa40449a95d1b6c951cc2a
-    - name: Frame_9
-      frameIndex: 9
-      additiveSortOrder: 0
-      cellRect:
-        x: 0
-        y: 0
-        width: 256
-        height: 256
-      spriteId: 9fbcb9ccd5c4bbb4f8b10e0937499510
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
