@@ -6,3 +6,4 @@ Mundo:
   - Tirion: Cidade capital dos elfos Noldor. Majestosa e bela, com casas e monumentos brancos (em mármore - ou algo assim). Governada por Finwe.
   - Alqualonde: Cidade portuária dos Teleri, Onde se encontram os numerosos barcos a vela de pesca dos Teleri.
   - Mina de Tirion: Local com diversos minérios úteis para o desenvolvimento do jogo. Terá alguns níveis, com o nível inferior contendo minérios mais raros. Os níveis inferiores serão desbloqueados com ferramentas criadas por Feanor (lampadas feanorianas).
+  - Telpenor: vila de mineradores e ferreiros ao norte de Tirion. Conhecida pelos seus produtos de prata e aço. Maltaron é seu líder, e é um dos poucos que consegue encontrar veios de ouro nas minas. Todos na vila são devotos a Aule, e posuem conhecimento para criarem belas obras.
